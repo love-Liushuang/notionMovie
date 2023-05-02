@@ -39,7 +39,7 @@ export const NotionPageHeader: React.FC<{
   const { components, mapPageUrl } = useNotionContext()
   const blockDate = block
   if(block && block.properties && block.properties.title) {
-    blockDate.properties.title = block && block.properties && block.properties['EOaa'] || block.properties.title
+    blockDate.properties.title = block && block.properties && block.properties['B@?X'] || block.properties.title
   }
   console.log('notion----- pageheader', {
     block:block,
