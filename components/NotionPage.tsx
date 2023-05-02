@@ -206,7 +206,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
     return <Loading />
   }
 
-  if (error || !site || !block || pageId === site.rootNotionPageId) {
+  if (error || !site || !block || pageId.replace(/-/g, '') === site.rootNotionPageId) {
     return <Page404 site={site} pageId={pageId} error={error} />
   }
 
