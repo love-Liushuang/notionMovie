@@ -9,12 +9,12 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: '1314个人博客名称',
+  name: '1314个人博客',
   domain: 'https://or4444.notion.site/e2f67778ee824c0fa77779f5d5747e2f?v=7863357919824f88981ca6fe6086ee41',
   author: '1314',
 
   // open graph metadata (optional)
-  description: '1314个人博客名称',
+  description: '1314个人博客',
 
   // social usernames (optional)
   twitter: '',
