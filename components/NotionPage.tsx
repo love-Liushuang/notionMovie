@@ -205,7 +205,13 @@ export const NotionPage: React.FC<types.PageProps> = ({
   if (router.isFallback) {
     return <Loading />
   }
-
+  console.log('notion page', {
+    error,
+    site,
+    block,
+    pageId,
+    rootNotionPageId: site.rootNotionPageId,
+  })
   if (error || !site || !block || pageId.replace(/-/g, '') === site.rootNotionPageId) {
     return <Page404 site={site} pageId={pageId} error={error} />
   }
